@@ -1,8 +1,4 @@
-# CarND-Controls-PID
-Self-Driving Car Engineer Nanodegree Program
-
-
-## PID Controler Project
+# PID Controler Project
 
 In this project a PID controller has been implemented, the PID controller gets feedback from the simulator and returns the stereing angle.
 
