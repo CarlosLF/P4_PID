@@ -1,6 +1,6 @@
 # PID Controler Project
 
-In this project a PID controller has been implemented, the PID controller gets feedback from the simulator and returns the stereing angle.
+In this project a PID controller has been implemented, the PID controller gets feedback from the simulator and returns the steereing angle.
 
 ## Basic Build Instructions
 
