@@ -31,9 +31,7 @@ void PID::UpdateError(double cte) {
 double PID::TotalError() {
     
     // steer= -tau_p * CTE - tau_d * diff_CTE - tau_i * int_CTE
-
-    //return Kp * p_error + Kd * d_error +  Ki * i_error;
     
-    return (-Kp * p_error) - (Kd * d_error) - (Ki * i_error);
+    return -Kp*p_error - Kd*d_error - Ki*i_error;
 }
 
