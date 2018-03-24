@@ -16,23 +16,13 @@ Visual aids are encouraged, i.e. record of a small video of the car in the simul
 
 
 * The proportional gain of the controller moves the car to the center line, however if we only use this value then the controller has an overshoot, therefore, the car is oscillating around the center line.
+[P Controller Video](https://www.dropbox.com/s/14qbofaenn2sno2/P.mov?dl=0)
 
 * The diferentional gain is used to decrease the oscilation of the error, therefore the cars moves around the center line without the oscilation.
+[PD Controller Video](https://www.dropbox.com/s/a1qmqt5tavabmmw/PD.mov?dl=0)
 
 * The integral gain is used to eliminate a posible bias, in such case the controller never converge.
-
-- The proportional portion of the controller tries to steer the car toward the center line (against the cross-track error). If used along, the car overshoots the central line very easily and go out of the road very quickly. An example video where this component is used along is [./videos/only-proportional.mov](./videos/only-proportional.mov).
-
-- The integral portion tries to eliminate a possible bias on the controlled system that could prevent the error to be eliminated. If used along, it makes the car to go in circles. In the case of the simulator, no bias is present. An example video where this component is used along is [./videos/only-integral.mov](./videos/only-integral.mov).
-
-- The differential portion helps to counteract the proportional trend to overshoot the center line by smoothing the approach to it. An example video where this component is used along is [./videos/only-differential.mov](./videos/only-differential.mov).
-
-[P video ](./PID_videos/P.mov)
-
-
-
-[Video with only P value](https://www.dropbox.com/s/14qbofaenn2sno2/P.mov?dl=0)
-
+[PID Controller Video](https://www.dropbox.com/s/jmdeyd7ievx1oay/PID.mov?dl=0)
 
 
 ## Student discusses how they chose the final hyperparameters (P, I, D coefficients). This could be have been done through manual tuning, twiddle, SGD, or something else, or a combination!
